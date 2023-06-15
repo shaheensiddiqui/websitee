@@ -1,0 +1,263 @@
+html{
+  
+}
+
+body {margin:0;}
+
+.header{
+  background-color: #dba9fd;
+  top: 0;
+  position: fixed;
+  height: 2cm;
+  width: 50%;
+  
+}
+
+.header p{
+  color: white;
+  font-size: 35;
+  font-family: sofia;
+  margin-top: 0.2cm;
+  margin-left: 1cm;
+}
+
+
+
+/* 2.MENU CSS */
+.topnav {
+    right: 0;
+    height: 2cm;
+    width: 50%;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    font-size: 20;
+    font-family: sofia;
+    font-weight: bold;
+    background-color: #dba9fd;
+    overflow: hidden;
+  }
+  
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    right: 1cm;
+    font-family: "Spartan", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.5cm;
+    width: 7%;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    
+    color: white;
+    transform: scale(1.2); /* to zoom */    
+    text-decoration: underline;  
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: white;
+    text-decoration: underline;
+  }
+
+  /* 3.PRODUCTS CSS */
+  .topnav1 {
+    font-weight: bold;
+    font-family: "Century Gothic";
+
+    font-size: 16;
+    margin-top: 2cm;
+    overflow: hidden;
+    background-color: #b9cefb;
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .topnav1 a {
+    width: 50%;
+    margin: 0;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .topnav1 a:hover {
+    background:#b9cefb;
+    color: black;
+    text-decoration-line: underline; 
+    transform: scale(1.1); /* to zoom */  
+  }
+
+  .topnav1 a.active {
+    text-decoration-line: underline;  
+    background:#ffb8ea;
+    color: black;
+    
+  }
+
+    /* Shop by */
+    .shopby{
+      width: 100%;
+      
+      align-content: center;
+      
+      
+    }
+
+    .shopby p{
+      
+      font-family: "Century Gothic";
+      font-size: 25;
+      text-align: center;
+      
+    }
+
+    /* options */
+
+    .options{
+      margin-bottom: 0.8cm;
+      text-align: center;
+      border: black;
+    }
+
+    .options a{
+      text-transform: uppercase;
+      font-family: "Spartan", sans-serif;
+      text-decoration: none;
+      background-color: #b9cefb;
+      padding: 14px 100px;
+      font-size: 14;
+      color: black;
+      
+    }
+
+
+    .headp{
+      letter-spacing: 4px; 
+      font-size: 25; 
+      font-family: 'Brown', sans-serif;
+    }
+
+
+    .producte{
+      font-family: "Candara";
+      
+    }
+    
+
+    
+
+    .producte:hover .name{
+      color: #dba9fd;
+      transform: scale(1.4);
+    }
+
+    .addto button{
+      font-family: "Copperplate Gothic Light";
+      font-size: 12;
+      font-weight: bold;
+      border: 2px solid #dba9fd;
+      padding: 10;
+      background-color: white;
+      border-radius: 7px;
+     
+    }
+
+    .addto button:hover{
+      border: 2px solid #dba9fd;
+      background-color: #dba9fd;
+      transition-duration: 0.4s;
+      
+    }
+
+    .footer a{
+      
+      right: 0;
+      border-radius: 10px;
+      bottom: 0;
+      position: fixed;
+      text-align: center;
+      background-color: white;
+      padding: 10px;
+      color: black;
+      font-size: 30;
+      text-decoration: none;
+    }
+
+    .footer a:hover{
+      background-color: whitesmoke;
+    }
+
+
+    /* cart */
+    .sidepanel  {
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      height: 100%;
+      top: 0;
+      right: 0;
+      background-color: whitesmoke;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    
+    .sidepanel a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidepanel a:hover {
+      color: black;
+
+    }
+    
+    .sidepanel .closebtn {
+      color: black;
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+    }
+    
+    .bottom{
+      cursor: pointer;
+      bottom: 0;
+      position: fixed;
+      padding: 10px;
+      font-size: 20;
+      border: 2px solid black;
+      border-radius: 10px ;
+    }
+
+
+
+    .bottom:hover{
+      background-color: black;
+      color: white;
+      transition: 0.5s;
+    }
+
+
+
+    
+
+
+   
